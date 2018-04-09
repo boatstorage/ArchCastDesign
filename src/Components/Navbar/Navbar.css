@@ -1,0 +1,20 @@
+
+.nav {
+	background-color: black;
+	color: #DDDDDD;
+}
+
+a {
+	margin-right: 100px;
+}
+
+a.brand-logo {
+	color: #DDDDDD;
+	margin-left: 100px;
+}
+
+
+.item span {
+	color: #DDDDDD;
+}
+

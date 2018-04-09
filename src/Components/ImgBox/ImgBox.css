@@ -1,0 +1,7 @@
+ .card.large {
+ 	height: 280px;
+ }
+
+ .card-image{
+	max-height: 100%;
+}
