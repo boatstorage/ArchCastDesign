@@ -7,12 +7,15 @@
   background: white;
   overflow: hidden;
   position: relative;
+  margin-bottom: 100px;
 }
 
-img {
+img.carspics {
 	min-width: 100%;
 	position: absolute;
 	top: -150px;
+  height: 500px;
+  margin-top: 150px;
 }
 
 .ant-carousel .slick-slide h3 {

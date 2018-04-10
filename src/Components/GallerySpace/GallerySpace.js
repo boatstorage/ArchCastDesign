@@ -1,71 +1,140 @@
 import React from "react";
-import {Row, Col, Card, CardTitle} from "react-materialize";
 import Sider from "../Sidemenu";
-// import PicCard from "../Components/PicCard";
-// import "./Gallery.css";
-
+import { Card, Col, Row } from 'antd';
+import "./GallerySpace.css";
+const { Meta } = Card;
 
 const GallerySpace = props =>
 
 <div>
 <Row>
-<Col s={12}  m={2}>
+<Col span={4} >
 
 	<Sider />
 </Col>
-	
-<Col s={12} m={10}>
-<Row>
-	<Col s={12} m={4}>
-		<Card header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-    		title="Card Title"
-    		reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    		<p><a href="#">This is a link</a></p>
-		</Card>
 
-	</Col>
-	<Col s={12} m={4}>
-	<Card header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-    		title="Card Title"
-    		reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    		<p><a href="#">This is a link</a></p>
-		</Card>
-	</Col>
-	<Col s={12} m={4}>
-	<Card header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-    		title="Card Title"
-    		reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    		<p><a href="#">This is a link</a></p>
-		</Card>
-	</Col>
+<Col span={20}  >
+
+
+
+  <div style={{ background: '#ECECEC', padding: '30px', height: '300px' }}>
+    <Row gutter={16}>
+      <Col span={8}>
+     <Card
+	    hoverable
+	    style={{ width: 240 }}
+	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
+    	<Meta
+	      title="Europe Street beat"
+	      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+      <Col span={8}>
+        <Card
+		    hoverable
+		    style={{ width: 240 }}
+		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
+   		 <Meta
+		      title="Europe Street beat"
+		      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+      <Col span={8}>
+        <Card
+		    hoverable
+		    style={{ width: 240 }}
+		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
+	    <Meta
+	      title="Europe Street beat"
+	      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+    </Row>
+    </div>
+ </Col>
+
+<Col span={20} >
+
+
+
+  <div style={{ background: '#ECECEC', padding: '30px', height: '300px' }}>
+    <Row gutter={16}>
+      <Col span={8}>
+     <Card
+	    hoverable
+	    style={{ width: 240 }}
+	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
+    	<Meta
+	      title="Europe Street beat"
+	      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+      <Col span={8}>
+        <Card
+		    hoverable
+		    style={{ width: 240 }}
+		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
+   		 <Meta
+		      title="Europe Street beat"
+		      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+      <Col span={8}>
+        <Card
+		    hoverable
+		    style={{ width: 240 }}
+		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
+	    <Meta
+	      title="Europe Street beat"
+	      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+    </Row>
+    </div>
+ </Col>
+
+<Col span={20} push ={4} >
+
+
+
+  <div style={{ background: '#ECECEC', padding: '30px', height: '300px' }}>
+    <Row gutter={16}>
+      <Col span={8}>
+     <Card
+	    hoverable
+	    style={{ width: 240 }}
+	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
+    	<Meta
+	      title="Europe Street beat"
+	      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+      <Col span={8}>
+        <Card
+		    hoverable
+		    style={{ width: 240 }}
+		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
+   		 <Meta
+		      title="Europe Street beat"
+		      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+      <Col span={8}>
+        <Card
+		    hoverable
+		    style={{ width: 240 }}
+		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
+	    <Meta
+	      title="Europe Street beat"
+	      description="www.instagram.com"/>
+  		</Card>
+      </Col>
+    </Row>
+    </div>
+ </Col>
+
 </Row>
 
-<Row>
-	<Col s={12} m={4}>
-		<Card header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-    		title="Card Title"
-    		reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    		<p><a href="#">This is a link</a></p>
-		</Card>
-
-	</Col>
-	<Col s={12} m={4}>
-	<Card header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-    		title="Card Title"
-    		reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    		<p><a href="#">This is a link</a></p>
-		</Card>
-	</Col>
-	<Col s={12} m={4}>
-	<Card header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-    		title="Card Title"
-    		reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    		<p><a href="#">This is a link</a></p>
-		</Card>
-	</Col>
-</Row>
-</Col>
-</Row>
 </div>;
 
 

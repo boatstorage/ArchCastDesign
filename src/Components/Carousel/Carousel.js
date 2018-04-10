@@ -8,16 +8,16 @@ const Jumbotron = props =>
     autoplay
     >
     <div className="regular slider slick-initialized slick-slider">
-    <img src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch052.jpg" />
+    <img className="carspics" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch052.jpg" />
     </div>
     <div className="regular slider slick-initialized slick-slider">
-    <img src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch039.jpg" />
+    <img className="carspics" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch039.jpg" />
     <h3>Luxury Home Design</h3></div>
     <div className="regular slider slick-initialized slick-slider">
-    <img src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch009.jpg" />
+    <img className="carspics"src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch009.jpg" />
     <h3>Luxury Home Design</h3></div>
     <div className="regular slider slick-initialized slick-slider">
-    <img src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch027.jpg" />
+    <img className="carspics"src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522213536/arch027.jpg" />
     <h3>Luxury Home Design</h3></div>
   </Carousel>
 

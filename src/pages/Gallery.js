@@ -9,8 +9,7 @@ import GallerySpace from "../Components/GallerySpace";
 
 const Gallery = () =>
 <div>
-	<ImgBox src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620409/Gallery%20/Picture_086.jpg">
-	</ImgBox>
+	
 
 	<Breadcrumbs />
 
