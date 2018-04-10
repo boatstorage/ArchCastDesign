@@ -8,12 +8,12 @@ const GallerySpace = props =>
 
 <div>
 <Row>
-<Col span={6} >
+<Col span={5} >
 
 	<Sider />
 </Col>
 
-<Col span={18}  >
+<Col span={17}  >
 
 
 
@@ -53,7 +53,7 @@ const GallerySpace = props =>
     </div>
  </Col>
 
-<Col span={18} >
+<Col span={17} >
 
 
 
@@ -93,7 +93,7 @@ const GallerySpace = props =>
     </div>
  </Col>
 
-<Col span={18} push ={6} >
+<Col span={17} push ={5} >
 
 
 
