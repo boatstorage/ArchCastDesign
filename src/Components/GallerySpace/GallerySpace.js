@@ -1,28 +1,25 @@
 import React from "react";
-import Sider from "../Sidemenu";
-import { Card, Col, Row } from 'antd';
+import { Card, Col, Row} from 'antd';
 import "./GallerySpace.css";
+
+
 const { Meta } = Card;
 
 const GallerySpace = props =>
 
 <div>
-<Row>
-<Col span={5} >
+<Row style={{ marginTop: '50px' }}>
 
-	<Sider />
-</Col>
-
-<Col span={17}  >
+<Col span={20} push={2} >
 
 
-
-  <div style={{ background: '#ECECEC', padding: '30px', height: '300px' }}>
+  <div style={{ background: '#ECECEC', padding: '50px', height: '500px' }}>
     <Row gutter={16}>
       <Col span={8}>
      <Card
 	    hoverable
-	    style={{ width: 240 }}
+     
+	    style={{ width: 350, height: 450 }}
 	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
     	<Meta
 	      title="Europe Street beat"
@@ -32,7 +29,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 240 }}
+		    style={{ width: 350, height: 450 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
    		 <Meta
 		      title="Europe Street beat"
@@ -42,7 +39,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 240 }}
+		    style={{ width: 350, height: 450}}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
 	    <Meta
 	      title="Europe Street beat"
@@ -51,18 +48,20 @@ const GallerySpace = props =>
       </Col>
     </Row>
     </div>
+
  </Col>
 
-<Col span={17} >
+<Col span={20} push={2} >
 
+  
 
-
-  <div style={{ background: '#ECECEC', padding: '30px', height: '300px' }}>
+  <div style={{ background: '#ECECEC', padding: '50px', height: '500px' }}>
+ 
     <Row gutter={16}>
       <Col span={8}>
      <Card
 	    hoverable
-	    style={{ width: 240 }}
+	    style={{ width: 350 }}
 	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
     	<Meta
 	      title="Europe Street beat"
@@ -72,7 +71,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 240 }}
+		    style={{ width: 350 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
    		 <Meta
 		      title="Europe Street beat"
@@ -82,7 +81,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 240 }}
+		    style={{ width: 350 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
 	    <Meta
 	      title="Europe Street beat"
@@ -91,18 +90,19 @@ const GallerySpace = props =>
       </Col>
     </Row>
     </div>
+
  </Col>
 
-<Col span={17} push ={5} >
+<Col span={20} push ={2} >
 
 
 
-  <div style={{ background: '#ECECEC', padding: '30px', height: '300px' }}>
+  <div style={{ background: '#ECECEC', padding: '50px', height: '500px' }}>
     <Row gutter={16}>
       <Col span={8}>
      <Card
 	    hoverable
-	    style={{ width: 240 }}
+	    style={{ width: 350 }}
 	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
     	<Meta
 	      title="Europe Street beat"
@@ -112,7 +112,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 240 }}
+		    style={{ width: 350 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
    		 <Meta
 		      title="Europe Street beat"
@@ -122,7 +122,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 240 }}
+		    style={{ width: 350 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
 	    <Meta
 	      title="Europe Street beat"
@@ -131,9 +131,11 @@ const GallerySpace = props =>
       </Col>
     </Row>
     </div>
- </Col>
 
+ </Col>
 </Row>
+
+
 
 </div>;
 
