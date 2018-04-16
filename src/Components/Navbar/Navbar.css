@@ -6,6 +6,9 @@
 
 }
 
+
+
+
 a {
 	margin-right: 50px;
 	
@@ -20,6 +23,8 @@ a.brand-logo {
 
 .item span {
 	color: #DDDDDD;
+	font-size: 12px;
+	
 }
 
 i.anticon.anticon-user {
@@ -31,3 +36,4 @@ i.anticon.anticon-user {
 div.nav-wrapper {
 	height: 75px;
 }
+

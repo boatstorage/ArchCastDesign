@@ -18,7 +18,7 @@ const GallerySpace = props =>
       <Col span={8}>
      <Card
 	    hoverable
-	    style={{ width: 350, height: 450 }}
+	    style={{ width: 300, height: 450 }}
 	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
     	<Meta
 	      title="Wall Moulding #002"
@@ -28,7 +28,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 350, height: 450 }}
+		    style={{ width: 300, height: 450 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
    		 <Meta
 		      title="Europe Street beat"
@@ -38,7 +38,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 350, height: 450}}
+		    style={{ width: 300, height: 450}}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
 	    <Meta
 	      title="Europe Street beat"
@@ -60,7 +60,7 @@ const GallerySpace = props =>
       <Col span={8}>
      <Card
 	    hoverable
-	    style={{ width: 350 }}
+	    style={{ width: 300 }}
 	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
     	<Meta
 	      title="Europe Street beat"
@@ -70,7 +70,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 350 }}
+		    style={{ width: 300 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
    		 <Meta
 		      title="Europe Street beat"
@@ -80,7 +80,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 350 }}
+		    style={{ width: 300 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
 	    <Meta
 	      title="Europe Street beat"
@@ -101,7 +101,7 @@ const GallerySpace = props =>
       <Col span={8}>
      <Card
 	    hoverable
-	    style={{ width: 350 }}
+	    style={{ width: 300 }}
 	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
     	<Meta
 	      title="Europe Street beat"
@@ -111,7 +111,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 350 }}
+		    style={{ width: 300 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620373/Gallery%20/DSC00018.jpg" />}>
    		 <Meta
 		      title="Europe Street beat"
@@ -121,7 +121,7 @@ const GallerySpace = props =>
       <Col span={8}>
         <Card
 		    hoverable
-		    style={{ width: 350 }}
+		    style={{ width: 300 }}
 		    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620286/Gallery%20/Picture_074.jpg" />}>
 	    <Meta
 	      title="Europe Street beat"
