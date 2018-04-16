@@ -1,9 +1,15 @@
-#components-form-demo-normal-login .login-form {
-  max-width: 300px;
+ .login-form {
+  max-width: 700px;
 }
-#components-form-demo-normal-login .login-form-forgot {
-  float: right;
+ .login-form-forgot {
+  float: center;
 }
-#components-form-demo-normal-login .login-form-button {
-  width: 100%;
+.login-form-button {
+  width: 25%;
+}
+
+form.ant-form.ant-form-horizontal.login-form {
+
+
+	margin: 200px;
 }

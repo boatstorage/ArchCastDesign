@@ -2,15 +2,19 @@
 .nav {
 	background-color: black;
 	color: #DDDDDD;
+	height: 75px;
+
 }
 
 a {
-	margin-right: 100px;
+	margin-right: 50px;
+	
 }
 
 a.brand-logo {
 	color: #DDDDDD;
 	margin-left: 100px;
+	
 }
 
 
@@ -22,4 +26,8 @@ i.anticon.anticon-user {
      
      line-height: 30px; 
      color: black;
+}
+
+div.nav-wrapper {
+	height: 75px;
 }
