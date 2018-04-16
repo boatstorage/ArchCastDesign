@@ -16,7 +16,7 @@ const Topnav = props =>
     		<Search
       			placeholder="Search entire store"
       			onSearch={value => console.log(value)}
-      			style={{ width: 150 }}
+      			style={{ width: 135 }}
     		/> 
   			</div>
 
