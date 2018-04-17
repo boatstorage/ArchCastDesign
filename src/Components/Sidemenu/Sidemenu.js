@@ -28,6 +28,13 @@ class Sider extends React.Component {
         onOpenChange={this.onOpenChange}
         style={{ width: 256 }}
       >
+      <SubMenu key="sub1" title={<span><span>Remodeling Projects</span></span>}>
+          <Menu.Item key="1">Modern</Menu.Item>
+          <Menu.Item key="2">Classical</Menu.Item>
+          <Menu.Item key="3">Egyptian</Menu.Item>
+          <Menu.Item key="4">Outdoor</Menu.Item>
+          <Menu.Item key="5">Children's</Menu.Item>
+        </SubMenu>
         <SubMenu key="sub1" title={<span><span>Moulding</span></span>}>
           <Menu.Item key="1">Crown Moulding</Menu.Item>
           <Menu.Item key="2">Trim Moulding</Menu.Item>

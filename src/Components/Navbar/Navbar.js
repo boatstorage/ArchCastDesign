@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, NavItem } from "react-materialize";
+import {Icon} from 'antd';
 import { Avatar, Badge, Input } from 'antd';
 
 import "./Navbar.css";
@@ -11,6 +12,7 @@ const Topnav = props =>
 
 
 	<Navbar className="nav" brand='Arch Cast & Design' right>
+		<NavItem className="itemright" href='gallery '><span>GALLERY</span></NavItem>
 		<NavItem className="item" href='search'><span>
 			<div>
     		<Search
@@ -22,9 +24,7 @@ const Topnav = props =>
 
 
 		</span></NavItem>
-  		<NavItem className="item" href='remodeling'><span>REMODELING</span></NavItem>
-  		<NavItem className="item" href='gallery'><span>GALLERY</span></NavItem>
-  		<NavItem className="item" href='home'><span>CART</span></NavItem>
+  		<NavItem className="item" href='home'><span>CART <Icon type="shopping-cart" /></span></NavItem>
   		<NavItem className="item" href='signin'><span>
   			<div>
 			    <span style={{ marginRight: 24 }}>
