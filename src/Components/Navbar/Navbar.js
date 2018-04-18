@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, NavItem } from "react-materialize";
-import {Icon} from 'antd';
+import {Icon, Affix} from 'antd';
 import { Avatar, Badge, Input } from 'antd';
 
 import "./Navbar.css";
@@ -10,7 +10,7 @@ const Search = Input.Search;
 
 const Topnav = props =>
 
-
+<Affix>
 	<Navbar className="nav" brand='Arch Cast & Design' right>
 		<NavItem className="itemright" href='gallery '><span>GALLERY</span></NavItem>
 		<NavItem className="item" href='search'><span>
@@ -33,9 +33,9 @@ const Topnav = props =>
 			  </div>
   		</span></NavItem>
 
-	</Navbar>;
+	</Navbar>
 
- 
+ </Affix>;
 
 export default Topnav;
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Icon } from 'antd';
+import { Menu, Icon, Affix} from 'antd';
 import ReactDOM from "react-dom";
 const SubMenu = Menu.SubMenu;
 
@@ -22,6 +22,7 @@ class Sider extends React.Component {
   render() {
     return (
     <div>
+    <Affix offsetTop={150} >
       <Menu
         mode="inline"
         openKeys={this.state.openKeys}
@@ -29,11 +30,11 @@ class Sider extends React.Component {
         style={{ width: 256 }}
       >
       <SubMenu key="sub1" title={<span><span>Remodeling Projects</span></span>}>
-          <Menu.Item key="1">Modern</Menu.Item>
-          <Menu.Item key="2">Classical</Menu.Item>
-          <Menu.Item key="3">Egyptian</Menu.Item>
-          <Menu.Item key="4">Outdoor</Menu.Item>
-          <Menu.Item key="5">Children's</Menu.Item>
+          <Menu.Item key="11">Modern</Menu.Item>
+          <Menu.Item key="12">Classical</Menu.Item>
+          <Menu.Item key="13">Egyptian</Menu.Item>
+          <Menu.Item key="14">Outdoor</Menu.Item>
+          <Menu.Item key="15">Children's</Menu.Item>
         </SubMenu>
         <SubMenu key="sub1" title={<span><span>Moulding</span></span>}>
           <Menu.Item key="1">Crown Moulding</Menu.Item>
@@ -51,6 +52,7 @@ class Sider extends React.Component {
           <Menu.Item key="10">Ceiling Light Fixture Moulding</Menu.Item>
         </SubMenu>
       </Menu>
+      </Affix>
      </div>
     );
   }

@@ -1,5 +1,6 @@
 import React from "react";
-import { Card, Col, Row} from 'antd';
+import { Card, Col, Row } from 'antd';
+import {Button, Icon} from "react-materialize";
 import "./GallerySpace.css";
 
 
@@ -8,9 +9,14 @@ const { Meta } = Card;
 const GallerySpace = props =>
 
 <div>
+
 <Row style={{ marginTop: '50px' }}>
 
-<Col span={24}  >
+<Col span={24}>
+<div>
+<Button floating fab='vertical' icon='contact_phone' className='contact' large style={{bottom: '45px', right: '24px', fontSize: '40px'}}>
+</Button>
+</div>
 
 
   <div style={{ background: '#ECECEC', padding: '50px', height: '500px' }}>
