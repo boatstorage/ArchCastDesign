@@ -12,7 +12,7 @@ const Topnav = props =>
 
 <Affix>
 	<Navbar className="nav" brand='Arch Cast & Design' right>
-		<NavItem className="itemright" href='gallery '><span>GALLERY</span></NavItem>
+		<NavItem className="itemright" href='gallery '><span style={{ marginLeft: -1000 }}>GALLERY</span></NavItem>
 		<NavItem className="item" href='search'><span>
 			<div>
     		<Search
@@ -24,11 +24,10 @@ const Topnav = props =>
 
 
 		</span></NavItem>
-  		<NavItem className="item" href='home'><span>CART <Icon type="shopping-cart" /></span></NavItem>
+  		<NavItem className="item" href='home'><span>CART <Badge count={2} className="badge"><Icon type="shopping-cart" /></Badge></span></NavItem>
   		<NavItem className="item" href='signin'><span>
   			<div>
-			    <span style={{ marginRight: 24 }}>
-			      <Badge count={2}><Avatar shape="square" icon="user" /></Badge>
+			    <span style={{ marginRight: 24 }}> SIGN IN
 			    </span>
 			  </div>
   		</span></NavItem>

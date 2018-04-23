@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Remodeling from "./pages/Remodeling";
 import Gallery from "./pages/Gallery";
+import ItemPage from "./pages/ItemPage";
 import LogIn from "./pages/LogIn";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
@@ -22,6 +23,7 @@ const App = () =>
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/remodeling" component={Remodeling} />
         <Route exact path="/signin" component={LogIn} />
+        <Route export path="/itempage" component={ItemPage} />
       </Wrapper>
       <Footer />
     </div>

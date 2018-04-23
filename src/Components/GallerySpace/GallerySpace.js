@@ -10,6 +10,15 @@ const GallerySpace = props =>
 
 <div>
 
+<Row style={{height: '50px' }}>
+<Col span={24}>
+<Card style={{width: '100%', height: '50px'}} />
+  <p> MOULDING </p>
+
+</Col>
+
+</Row>
+
 <Row style={{ marginTop: '50px' }}>
 
 <Col span={24}>
@@ -25,10 +34,15 @@ const GallerySpace = props =>
      <Card
 	    hoverable
 	    style={{ width: 300, height: 450 }}
-	    cover={<img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" />}>
-    	<Meta
+	    cover={<a href='itempage'> <img className="galpics" alt="example" src="https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg" onclick='itempage'/></a>}>
+    	<div style={{ display: 'flex'}}>
+      <Meta
 	      title="Wall Moulding #002"
 	      description="$200 "/>
+      
+      <Button floating medium className='red' waves='light' icon='favorite_border' style={{ marginRight: 5, marginLeft: 55, marginTop: 5, marginBottom: 30}}/>
+
+      </div>
   		</Card>
       </Col>
       <Col span={8}>

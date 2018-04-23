@@ -1,7 +1,17 @@
 img.galpics {
 	height: 350px;
+	width: 300px;
 }
 
 .contact {
 	font-size: 30px;
+	background-color: black;
+}
+.red {
+	background-color: lightpink !important;
+}
+
+p {
+	justify-content: center;
+
 }
