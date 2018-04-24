@@ -12,7 +12,7 @@ const Topnav = props =>
 
 <Affix>
 	<Navbar className="nav" brand='Arch Cast & Design' right>
-		<NavItem className="itemright" href='gallery '><span style={{ marginLeft: 1000 }}>GALLERY</span></NavItem>
+		<NavItem className="itemright" href='gallery '><span style={{ marginLeft: 500 }}>GALLERY</span></NavItem>
 		<NavItem className="item" href='search'><span>
 			<div>
     		<Search
