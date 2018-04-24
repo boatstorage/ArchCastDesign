@@ -5,6 +5,7 @@ import Container from "../Components/Container";
 import Sider from "../Components/Sidemenu";
 import Breadcrumbs from "../Components/Breadcrumbs";
 import PicCard from "../Components/PicCard"
+import WrappedDemo from "../Components/SideForm";
 
 
 
@@ -19,14 +20,17 @@ const Gallery = () =>
 	
 	<div style={{ padding: '10px', height: '500px' }}>
     	<Row gutter={4}>
-      <Col span={16}>
+      <Col span={14}>
     
-				<PicCard />
+				<PicCard style={{width: '100%'}}/>
 		</Col>
 		
-		<Col span={8}>
+		<Col span={10}>
 
 			<Container style={{borderColor: 'black', borderStyle: 'solid', height: '600px', width: '100%', marginRight: '10px'}}>
+			<div>
+   				<WrappedDemo />
+			</div>
 			</Container>
 		</Col>
 			

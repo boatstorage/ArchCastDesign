@@ -6,7 +6,7 @@ import "./PicCard.css";
 const PicCard = props =>
 
 <Card className='small'
-	style={{ width: '80%', height: '80%', marginLeft: 10, marginRight: 10}}
+	style={{ width: '100%', height: '80%', marginLeft: 10, marginRight: 10}}
   	header={<CardTitle image='https://res.cloudinary.com/archcastanddesign/image/upload/v1522620299/Gallery%20/for_boris_011.jpg'></CardTitle>}
   	actions={[<a href='#'>This is a Link</a>]}>
   	
