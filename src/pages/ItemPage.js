@@ -27,7 +27,7 @@ const Gallery = () =>
 		
 		<Col span={10}>
 
-			<Container style={{borderColor: 'black', borderStyle: 'solid', height: '600px', width: '100%', marginRight: '10px'}}>
+			<Container style={{ height: '600px', width: '100%', marginLeft: '10px', marginRight: '10px'}}>
 			<div>
    				<WrappedDemo />
 			</div>
