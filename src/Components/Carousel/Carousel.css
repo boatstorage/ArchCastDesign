@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+/*@import '~antd/dist/antd.css';*/
 
 .ant-carousel .slick-slide {
   text-align: center;
@@ -17,7 +17,3 @@ img.carspics {
   margin-top: 150px;
 }
 
-.ant-carousel .slick-slide h3 {
-  color: black;
-  margin-top: 150px;
-}

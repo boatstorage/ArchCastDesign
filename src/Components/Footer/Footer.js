@@ -3,9 +3,13 @@ import { Footer } from "react-materialize";
 import "./Footer.css";
 
 const Bottomfooter = () =>
-  <Footer>
-    <span>Marina Lyulko copyright 2018</span>
-  </Footer>;
 
+<div>
+  <Footer copyrights="2018 Marina Lyulko"
+  className='footer-copyright'
+>
+    
+</Footer>;
+</div>;
 
 export default Bottomfooter;

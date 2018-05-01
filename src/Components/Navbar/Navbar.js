@@ -1,40 +1,48 @@
-import React from "react";
+import  React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, NavItem } from "react-materialize";
-import {Icon, Affix} from 'antd';
-import { Avatar, Badge, Input } from 'antd';
-
+import { Navbar, NavItem, Icon, Badge, Chip, Input } from "react-materialize";
 import "./Navbar.css";
 
-const Search = Input.Search;
 
-const Topnav = props =>
+const Topnav = () =>
 
-<Affix>
-	<Navbar className="nav" brand='Arch Cast & Design' right>
-		<NavItem className="itemright" href='gallery '><span style={{ marginLeft: 500 }}>GALLERY</span></NavItem>
+
+	<Navbar className="nav" brand='Arch Cast & Design' right fixed={ true }>
+		<div className="dropdown">
+		<span style={{ marginLeft: 500 }}><NavItem className="itemright" href='gallery '>GALLERY</NavItem></span>
+		<div className="dropdown-content">
+		<ul>
+		<li>Remodeling</li>
+		<li>Moulding</li>
+		</ul>
+	 </div>
+</div>
 		<NavItem className="item" href='search'><span>
 			<div>
-    		<Search
+    		<Input
       			placeholder="Search entire store"
-      			onSearch={value => console.log(value)}
-      			style={{ width: 135 }}
+      			s={4}
+      			label="Search entire store"
+      			
+      			
     		/> 
   			</div>
 
 
 		</span></NavItem>
-  		<NavItem className="item" href='home'><span>CART <Badge count={2} className="badge"><Icon type="shopping-cart" /></Badge></span></NavItem>
-  		<NavItem className="item" href='signin'><span>
-  			<div>
-			    <span style={{ marginRight: 24 }}> SIGN IN
+  		<NavItem className="item" href='home'><span>CART  <Badge newIcon>4</Badge></span></NavItem>
+  		<NavItem className="item" href='signin'>
+
+			    <span style={{ marginRight: 24 }}> 
+			   
+      			SIGN IN
 			    </span>
-			  </div>
-  		</span></NavItem>
+			
+  		</NavItem>
 
 	</Navbar>
 
- </Affix>;
+;
 
 export default Topnav;
 
